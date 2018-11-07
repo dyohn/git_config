@@ -1,0 +1,49 @@
+#
+# Some standard things to ignore
+#
+
+# Org Mode files #
+##################
+*.org
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Compiled Source#
+##################
+*.o
+*.a
+*.com
+*.class
+*.dll
+*.exe
+*.so
+*.pyc
+
+# Emacs Backups #
+#################
+*~
+*.*~
+
+# Backups #
+###########
+*.bak
+
+# Archives #
+############
+*.tgz
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
