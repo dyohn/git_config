@@ -2,12 +2,31 @@
 # Some standard things to ignore
 #
 
+#---------#
+# VS Code #
+#---------#
+# ignore user settings no matter what; use settings.json.default
+# to set a baseline for everyone to use if sharing
+.vscode/settings.json
+# NOTE: if you need to share settings, comment these next ones out
+.vscode/
+*.code-workspace
+
+
+#----------------------#
+# Virtual Environments #
+#----------------------#
+.venv/
+.env
+
+#----------------#
 # Org Mode files #
-##################
+#----------------#
 *.org
 
+#--------------------#
 # OS generated files #
-######################
+#--------------------#
 .DS_Store
 .DS_Store?
 ._*
@@ -16,8 +35,14 @@
 ehthumbs.db
 Thumbs.db
 
-# Compiled Source#
-##################
+#---------#
+# Backups #
+#---------#
+*.bak
+
+#-----------------#
+# Compiled Source #
+#-----------------#
 *.o
 *.a
 *.com
@@ -27,17 +52,9 @@ Thumbs.db
 *.so
 *.pyc
 
-# Emacs Backups #
-#################
-*~
-*.*~
-
-# Backups #
-###########
-*.bak
-
+#----------#
 # Archives #
-############
+#----------#
 *.tgz
 *.7z
 *.dmg
@@ -48,11 +65,15 @@ Thumbs.db
 *.tar
 *.zip
 
-# LaTex intermediate #
-######################
+#--------------------#
+# LaTeX intermediate #
+#--------------------#
 *.aux
 
+#-----------#
 # Log files #
-#############
+#-----------#
+*.Log
 *.log
 *.out
+
